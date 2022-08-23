@@ -1,0 +1,165 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Poppins:wght@200;300;400;500;600&display=swap');
+/* Common Design */
+body{
+    font-family: 'Poppins', sans-serif;
+}
+.container{
+    max-width: 1140px;
+    margin: 0 auto;
+}
+button{
+    background-color: #FF5959;
+    padding: 8px 15px;
+    border: 1px solid #FF5959;
+    border-radius: 4px;
+    border: none;
+    color: rgb(255, 255, 255);
+}
+button:hover{
+    background: #fff;
+    border: 1px solid #e03f3f;
+    color: #e03f3f;
+}
+h3{
+    font-size: 30px;
+}
+h2{
+    font-size: 36px;
+    line-height: 36px;
+}
+img{
+    width: 100%;
+}
+/* Header Section Design */
+ .header-section{
+    background-image: url("img/donation5.jpg"), linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5));
+    width: 100%;
+    height: 50vh;
+}
+/* donate-section design */
+.donate-section .container{
+    text-align: center;
+    margin: 35px 0;
+}
+.donate-section .container h3{
+    font-size: 30px;
+    margin: 15px 0;
+
+}
+.donate-section p{
+    max-width: 768px;
+    margin: 15px auto;
+}
+.donate-section button{
+    font-size: 30px;
+    font-weight: 700;
+    margin: 0 15px;
+    padding: 20px;
+    background-color: #fff;
+    color: #0B0D17;
+    border: 2px solid #0B0D17;
+}
+.donate-section button:hover{
+    color: #fff;
+    background: #FF5959;
+    border: 2px solid #FF5959;
+}
+/* Donate Plan Section */
+.plan-section .row{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.card{
+    display: flex;
+    flex-direction: column;
+    padding: 20px 15px;
+    width: 300px;
+    height: 300px;
+    border: 1px solid #FF5959;
+    border-radius: 8px;
+}
+.card h3{
+    margin: 10px 0;
+}
+.card img{
+    width: 50px;
+}
+/* Need Help Section design */
+.need-help .container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 0;
+}
+.need-help .news{
+    width: 400px;
+    margin: 10px;
+}
+.need-help .image{
+    width: 400px;
+    margin: 10px;
+
+}
+.need-help .news p{
+    margin: 10px 0;
+}
+.need-help .news h2{
+    margin: 0;
+}
+/* Subscribe Section Design */
+.subscribe-section{
+    padding: 20px 0;
+}
+.subscribe-section .container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    max-width: 600px;
+}
+
+.subscribe-section .subscribe{
+    background: #FFF4D6;
+    border-radius: 8px;
+    padding: 40px 0;
+}
+.subscribe-section .subscribe .container{
+    max-width: 500px;
+    display: flex;
+    flex-direction: row;
+}
+.subscribe .container input{
+    font-size: 18px;
+    border-radius: 5px;
+    border: none;
+    padding: 10px;
+}
+.subscribe .btn-subscribe{
+    background-color: #FF5959;
+    border: 1px solid #FF5959;
+    padding: 10px 16px;
+    color: rgb(255, 255, 255);
+}
+.subscribe .btn-subscribe:hover{
+    background: rgba(143, 36, 36, 0);
+    border: 1px solid #e03f3f;
+    color: #0B0D17;
+}
+/* Footer Section Design */
+.footer-section{
+    background: #0B0D17;
+    color: #e03f3f;
+    text-align: center;
+    padding: 20px 0;
+}
+.footer-section h3{
+    font-weight: 700;
+    font-size: 30px;
+    margin: 0;
+    font-family: 'lobster', cursive;
+}
+.footer-section p{
+    font-weight: 300;
+    margin: 0;
+}
