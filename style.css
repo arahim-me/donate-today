@@ -40,6 +40,9 @@ img{
     color: #FAFAFA;
     text-align: center;
 }
+.header-section h2{
+    margin: 30px 0 0 0;
+}
 .header-section .inner{
     display: flex;
     background-color: #0b0d17ab;
@@ -47,12 +50,10 @@ img{
     height: 100%;
 }
 .header-section .container{
-    width: 50%;
+    width: 75%;
     height: 100%;
-    margin-top: 24px;
-    display: flex;
-    flex-direction: column;
     align-items: center;
+    vertical-align: middle;
 }
 /* donate-section design */
 .donate-section .container{
@@ -83,6 +84,25 @@ img{
     color: #fff;
     background: #FF5959;
     border: 1px solid #FF5959;
+}
+.donate-section .custom-amount{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:center ;
+    margin: 20px 0;
+
+}
+.custom-amount button{
+    width: 200px;
+    font-size: 18px;
+}
+.custom-amount input{
+    font-size: 18px;
+    text-align: center;
+    padding: 15px;
+    border: none;
+    width: 400px;
 }
 /* Donate Plan Section */
 .plan-section .about-plan{
